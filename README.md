@@ -1,2 +1,2 @@
-# EAD-1
+# EAD
 V Sem
