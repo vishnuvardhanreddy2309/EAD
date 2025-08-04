@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>One Day Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #98cbd3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      max-width: 600px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background-color: rgb(190, 142, 142);
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+
+    tr:nth-child(even) td {
+      background-color: lab(95.49% 0.01 -0.01 / 0.855);
+    }
+  </style>
+</head>
+<body>
+  <h2>One Day Timetable</h2>
+
+  <table>
+    <tr>
+      <th>Subject</th>
+      <th>Timing</th>
+    </tr>
+    <tr>
+      <td>EAD Lab (B1) / CN Lab (B2)</td>
+      <td>9:10 AM to 10:10 AM</td>
+    </tr>
+    <tr>
+      <td>EAD Lab (B1) / CN Lab (B2)</td>
+      <td>10:10 AM to 11:00 AM</td>
+    </tr>
+    <tr>
+      <td>FLAT</td>
+      <td>11:15 AM to 12:15 PM</td>
+    </tr>
+    <tr>
+      <td>LUNCH BREAK</td>
+      <td>12:15 PM to 1:00 PM</td>
+    </tr>
+    <tr>
+      <td>ML</td>
+      <td>1:00 PM to 2:00 PM</td>
+    </tr>
+    <tr>
+      <td>PE-2</td>
+      <td>2:00 PM to 3:00 PM</td>
+    </tr>
+    <tr>
+      <td>SE</td>
+      <td>3:00 PM to 4:00 PM</td>
+    </tr>
+  </table>
+</body>
+</html>
