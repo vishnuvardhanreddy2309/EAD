@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback Form</title>
+  <style>
+    body {
+      background-color: #f4f7f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .feedback-form {
+      background-color: #6182c8;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    .feedback-form h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 18px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .radio-group {
+      margin-bottom: 20px;
+    }
+
+    .radio-group label {
+      margin-right: 15px;
+      font-weight: normal;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .submit-btn:hover {
+      background-color: #2c80b4;
+    }
+  </style>
+</head>
+<body>
+  <form class="feedback-form" action="/cbit.org">
+    <h2>Feedback Form</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="message" rows="6" required></textarea>
+
+    <label>How satisfied are you?</label>
+    <div class="radio-group">
+      <input type="radio" id="satisfied" name="satisfactionlevel" value="satisfied" required>
+      <label for="satisfied">Satisfied</label>
+
+      <input type="radio" id="neutral" name="satisfactionlevel" value="neutral">
+      <label for="neutral">Neutral</label>
+
+      <input type="radio" id="unsatisfied" name="satisfactionlevel" value="unsatisfied">
+      <label for="unsatisfied">Unsatisfied</label>
+    </div>
+
+    <input type="submit" class="submit-btn" value="Submit">
+  </form>
+</body>
+</html>
