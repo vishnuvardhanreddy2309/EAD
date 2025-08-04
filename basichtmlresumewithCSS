@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      margin: 40px;
+      color: #333;
+    }
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      color: #34495e;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+
+    .contact {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .statement {
+      font-style: italic;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>A Vishnu Vardhan Reddy</h1>
+  <div class="contact">
+    <p>Email: vishnuvardhanr5336@gmail.com</p>
+    <p>Phone: +91-7989533674</p>
+    <p>Location: Hyderabad, India</p>
+  </div>
+
+  <div class="section">
+    <h2>Personal Statement</h2>
+    <p class="statement">A passionate engineering student with strong problem-solving skills and a keen interest in software development and energy systems. I strive for continuous learning and innovative thinking.</p>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th>Year</th>
+        <th>CGPA / Percentage</th>
+      </tr>
+      <tr>
+        <td>B.E. in Information Techonology(IT)</td>
+        <td>CBIT, Hyderabad</td>
+        <td>2026</td>
+        <td>8.38 / 10</td>
+      </tr>
+      <tr>
+        <td>Intermediate (MPC)</td>
+        <td>Narayana Junior College</td>
+        <td>2022</td>
+        <td>93.6%</td>
+      </tr>
+      <tr>
+        <td>SSC</td>
+        <td>Narayana Junior College</td>
+        <td>2020</td>
+        <td>10 GPA</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java, Python, JavaScript</li>
+      <li>Web Development (HTML, CSS, JSP, React)</li>
+      <li>MySQL, MongoDB</li>
+      <li>Problem Solving & Data Structures</li>
+      <li>Teamwork and Leadership</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Vishnu Vardhan. All rights reserved.
+  </footer>
+
+</body>
+</html>
