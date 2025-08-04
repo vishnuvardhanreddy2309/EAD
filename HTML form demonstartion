@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  <label for="name"> Student Name:</label><br>
+  <input type="text" id="name" name="name" ><br>
+  <label for="rollno">Roll Number:</label><br>
+  <input type="number" id="rollno" name="rollno" ><br>
+  <label for="year"> Year:</label><br>
+  <input type="number" id="year" name="year" ><br>
+  <label for="sem"> Semister:</label><br>
+  <input type="number" id="sem" name="sem" ><br>
+  <label>Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">other</label>
+  <label for="branch">Branch:</label><br>
+  <select id="branch" name="branch">
+    <option value="cse">CSE</option>
+    <option value="ece">ECE</option>
+    <option value="eee">EEE</option>
+    <option value="civil">CIVIL</option>
+  </select>
+  <input type="submit">
+</form> 
+
+</body>
+</html>
