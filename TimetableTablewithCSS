@@ -1,83 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>One Day Timetable</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #98cbd3;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      flex-direction: column;
-    }
-
-    h2 {
-      margin-bottom: 20px;
-      color: #333;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 80%;
-      max-width: 600px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      background-color: rgb(190, 142, 142);
-    }
-
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: center;
-      padding: 10px;
-    }
-
-    th {
-      background-color: #3498db;
-      color: white;
-    }
-
-    tr:nth-child(even) td {
-      background-color: lab(95.49% 0.01 -0.01 / 0.855);
-    }
-  </style>
+    <title>Class Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        td {
+            vertical-align: middle;
+        }
+        .lunch {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            font-weight: bold;
+            background-color: #f9f9f9;
+        }
+        .day {
+            font-weight: bold;
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-  <h2>One Day Timetable</h2>
+    <h2 style="text-align:center;">Class Timetable</h2>
+    <table>
+        <tr>
+            <th>Day/Time</th>
+            <th>I<br>9:10 - 10:10</th>
+            <th>II<br>10:10 - 11:10</th>
+            <th>III<br>11:15 - 12:15</th>
+            <th>12:15 - 1:00<br>LUNCH BREAK</th>
+            <th>IV<br>1:00 - 2:00</th>
+            <th>V<br>2:00 - 3:00</th>
+            <th>VI<br>3:05 - 4:05</th>
+        </tr>
 
-  <table>
-    <tr>
-      <th>Subject</th>
-      <th>Timing</th>
-    </tr>
-    <tr>
-      <td>EAD Lab (B1) / CN Lab (B2)</td>
-      <td>9:10 AM to 10:10 AM</td>
-    </tr>
-    <tr>
-      <td>EAD Lab (B1) / CN Lab (B2)</td>
-      <td>10:10 AM to 11:00 AM</td>
-    </tr>
-    <tr>
-      <td>FLAT</td>
-      <td>11:15 AM to 12:15 PM</td>
-    </tr>
-    <tr>
-      <td>LUNCH BREAK</td>
-      <td>12:15 PM to 1:00 PM</td>
-    </tr>
-    <tr>
-      <td>ML</td>
-      <td>1:00 PM to 2:00 PM</td>
-    </tr>
-    <tr>
-      <td>PE-2</td>
-      <td>2:00 PM to 3:00 PM</td>
-    </tr>
-    <tr>
-      <td>SE</td>
-      <td>3:00 PM to 4:00 PM</td>
-    </tr>
-  </table>
+        <tr>
+            <td class="day">MONDAY</td>
+            <td colspan="2">EAD LAB (B1)/CN LAB (B2)</td>
+            <td>FLAT</td>
+            <td class="lunch" rowspan="6">LUNCH<br>BREAK</td>
+            <td>ML</td>
+            <td>PE-2</td>
+            <td>SE</td>
+        </tr>
+
+        <tr>
+            <td class="day">TUESDAY</td>
+            <td colspan="2">ML LAB (B1)/CT LAB (B2)</td>
+            <td>EAD</td>
+            <td>CN</td>
+            <td>CC LAB (B1)</td>
+            <td>SPORTS (B2)</td>
+        </tr>
+
+        <tr>
+            <td class="day">WEDNESDAY</td>
+            <td>PE-2</td>
+            <td>EAD</td>
+            <td>ML LAB (B2)/CT LAB (B1)</td>
+            <td rowspan="2">ML LAB (B2)/CT LAB (B1)<br>EAD LAB (B2)/CN LAB (B1)</td>
+            <td>LIBRARY (B2)</td>
+            <td>SE</td>
+        </tr>
+
+        <tr>
+            <td class="day">THURSDAY</td>
+            <td>FLAT</td>
+            <td>CN</td>
+            <td></td>
+            <td>ML</td>
+            <td>EAD</td>
+        </tr>
+
+        <tr>
+            <td class="day">FRIDAY</td>
+            <td>SE</td>
+            <td>CC LAB (B2)</td>
+            <td>LIBRARY (B2)</td>
+            <td>PE-2</td>
+            <td>FLAT</td>
+            <td>CN</td>
+        </tr>
+
+        <tr>
+            <td class="day">SATURDAY</td>
+            <td>MENTORING</td>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 </body>
 </html>
