@@ -4,68 +4,70 @@
     <title>Class Timetable</title>
 </head>
 <body>
-    <h2 align="center">Class Timetable</h2>
-    <table border="1" cellspacing="0" cellpadding="8" align="center">
+    <table border="1" cellspacing="0" cellpadding="8">
         <tr>
             <th>Day/Time</th>
-            <th>I<br>9:10 - 10:10 AM</th>
-            <th>II<br>10:10 - 11:10 AM</th>
-            <th>III<br>11:15 - 12:15 PM</th>
-            <th rowspan="7">L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K</th>
-            <th>IV<br>1:00 - 2:00 PM</th>
-            <th>V<br>2:00 - 3:00 PM</th>
-            <th>VI<br>3:05 - 4:05 PM</th>
+            <th>I<br>9:10 To 10:10 AM</th>
+            <th>II<br>10:10 To 11:10 AM</th>
+            <th>III<br>11:15 To 12:15 PM</th>
+            <th>12:15 to 1:00 PM<br>LUNCH BREAK</th>
+            <th>IV<br>1:00 To 2:00 PM</th>
+            <th>V<br>2:00 To 3:00 PM</th>
+            <th>VI<br>3:05 To 4:05 PM</th>
         </tr>
+
         <tr>
             <td>MONDAY</td>
-            <td>EAD LAB (B1)/CN LAB (B2)</td>
-            <td></td>
+            <td colspan="2">EAD LAB (B1)/CN LAB (B2)</td>
             <td>FLAT</td>
+            <td rowspan="6" align="center">LUNCH<br>BREAK</td>
             <td>ML</td>
             <td>PE-2</td>
             <td>SE</td>
         </tr>
+
         <tr>
             <td>TUESDAY</td>
-            <td>ML LAB (B1)/CT LAB (B2)</td>
-            <td></td>
+            <td colspan="2">ML LAB (B1)/CT LAB (B2)</td>
             <td>EAD</td>
             <td>CN</td>
-            <td>CC LAB (B1)<br>LIBRARY (B2)</td>
-            <td>SPORTS (B2)</td>
+            <td>CC LAB (B1)</td>
+            <td></td>
         </tr>
+
         <tr>
             <td>WEDNESDAY</td>
             <td>PE-2</td>
             <td>EAD</td>
             <td>ML LAB (B2)/CT LAB (B1)</td>
-            <td>ML LAB (B2)/CT LAB (B1)<br>EAD LAB (B2)/CN LAB (B1)</td>
+            <td rowspan="2">ML LAB (B2)/CT LAB (B1)<br>EAD LAB (B2)/CN LAB (B1)</td>
+            <td>LIBRARY (B2)</td>
             <td>SE</td>
-            <td>ML</td>
         </tr>
+
         <tr>
             <td>THURSDAY</td>
             <td>FLAT</td>
             <td>CN</td>
             <td></td>
+            <td>ML</td>
+            <td>EAD</td>
+        </tr>
+
+        <tr>
+            <td>FRIDAY</td>
+            <td>SE</td>
+            <td>CC LAB (B2)</td>
+            <td>LIBRARY (B2)</td>
             <td>PE-2</td>
             <td>FLAT</td>
             <td>CN</td>
         </tr>
-        <tr>
-            <td>FRIDAY</td>
-            <td>SE</td>
-            <td>CC LAB (B2)<br>LIBRARY (B2)</td>
-            <td>SPORTS (B2)</td>
-            <td></td>
-            <td>ML</td>
-            <td>EAD</td>
-        </tr>
+
         <tr>
             <td>SATURDAY</td>
             <td>MENTORING</td>
-            <td></td>
-            <td></td>
+            <td colspan="2"></td>
             <td></td>
             <td></td>
             <td></td>
