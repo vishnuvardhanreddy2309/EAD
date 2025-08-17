@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-
-      td,
-      th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-      }
-
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-    </style>
-  </head>
-  <body>
-    <h2>HTML Table</h2>
-
-    <table>
-      <tr>
-        <th>Subject</th>
-        <th>Timing</th>
-      </tr>
-      <tr>
-        <td>EAD Lab(B1)/CN Lab(B2)</td>
-        <td>9:10 AM to 10:10 AM</td>
-      </tr>
-      <tr>
-        <td>EAD Lab(B1)/CN Lab(B2)</td>
-        <td>10:10 AM to 11:00 AM</td>
-      </tr>
-      <tr>
-        <td>FLAT</td>
-        <td>11:15 AM to 12:15 PM</td>
-      </tr>
-      <tr>
-        <td>LUNCH BREAK</td>
-        <td>12:15 PM to 1:00 PM</td>
-      </tr>
-      <tr>
-        <td>ML</td>
-        <td>1:00 PM to 2:00 PM</td>
-      </tr>
-      <tr>
-        <td>PE-2</td>
-        <td>2:00 PM to 3:00 PM</td>
-      </tr>
-      <tr>
-        <td>SE</td>
-        <td>3:00 PM to 4:00 PM</td>
-      </tr>
+<head>
+    <title>Class Timetable</title>
+</head>
+<body>
+    <h2 align="center">Class Timetable</h2>
+    <table border="1" cellspacing="0" cellpadding="8" align="center">
+        <tr>
+            <th>Day/Time</th>
+            <th>I<br>9:10 - 10:10 AM</th>
+            <th>II<br>10:10 - 11:10 AM</th>
+            <th>III<br>11:15 - 12:15 PM</th>
+            <th rowspan="7">L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K</th>
+            <th>IV<br>1:00 - 2:00 PM</th>
+            <th>V<br>2:00 - 3:00 PM</th>
+            <th>VI<br>3:05 - 4:05 PM</th>
+        </tr>
+        <tr>
+            <td>MONDAY</td>
+            <td>EAD LAB (B1)/CN LAB (B2)</td>
+            <td></td>
+            <td>FLAT</td>
+            <td>ML</td>
+            <td>PE-2</td>
+            <td>SE</td>
+        </tr>
+        <tr>
+            <td>TUESDAY</td>
+            <td>ML LAB (B1)/CT LAB (B2)</td>
+            <td></td>
+            <td>EAD</td>
+            <td>CN</td>
+            <td>CC LAB (B1)<br>LIBRARY (B2)</td>
+            <td>SPORTS (B2)</td>
+        </tr>
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>PE-2</td>
+            <td>EAD</td>
+            <td>ML LAB (B2)/CT LAB (B1)</td>
+            <td>ML LAB (B2)/CT LAB (B1)<br>EAD LAB (B2)/CN LAB (B1)</td>
+            <td>SE</td>
+            <td>ML</td>
+        </tr>
+        <tr>
+            <td>THURSDAY</td>
+            <td>FLAT</td>
+            <td>CN</td>
+            <td></td>
+            <td>PE-2</td>
+            <td>FLAT</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>FRIDAY</td>
+            <td>SE</td>
+            <td>CC LAB (B2)<br>LIBRARY (B2)</td>
+            <td>SPORTS (B2)</td>
+            <td></td>
+            <td>ML</td>
+            <td>EAD</td>
+        </tr>
+        <tr>
+            <td>SATURDAY</td>
+            <td>MENTORING</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </table>
-  </body>
+</body>
 </html>
+
