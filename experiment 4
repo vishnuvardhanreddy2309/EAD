@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Campus Gallery</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .carousel-caption {
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        padding: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="campusCarousel"
+      class="carousel slide mb-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active" data-bs-interval="3000">
+          <!-- 3s -->
+          <img
+            src="https://your-college-website.edu/images/campus1.jpg"
+            class="d-block w-100"
+            alt="Campus Image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Vibrant Campus</h5>
+            <p>Experience life at our beautiful green campus.</p>
+            <a href="#" class="btn btn-warning">Explore More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" data-bs-interval="5000">
+          <!-- 5s -->
+          <img
+            src="https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg"
+            class="d-block w-100"
+            alt="Campus 2"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Modern Facilities</h5>
+            <p>State-of-the-art labs and learning spaces.</p>
+            <a href="#" class="btn btn-light">Take a Tour</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" data-bs-interval="4000">
+          <!-- 4s -->
+          <img
+            src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg"
+            class="d-block w-100"
+            alt="Campus 3"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Student Activities</h5>
+            <p>Join clubs, events, and sports to grow beyond academics.</p>
+            <a href="#" class="btn btn-success">Join Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#campusCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#campusCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <div class="container mb-5">
+      <div class="row g-4">
+        <!-- Library Card -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+              class="card-img-top"
+              alt="Library"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Library</h5>
+              <p class="card-text">
+                Access thousands of books, journals, and digital resources.
+              </p>
+              <a href="#" class="btn btn-primary">Visit Library</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Labs Card -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://lokmangalcolleges.org/wp-content/uploads/computer-lab.png"
+              class="card-img-top"
+              alt="Labs"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Labs</h5>
+              <p class="card-text">
+                Hands-on experience with the latest technologies and tools.
+              </p>
+              <a href="#" class="btn btn-primary">Explore Labs</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sports Card -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="https://media.istockphoto.com/id/1278976828/photo/team-of-young-football-players-stacking-hands-before-match.jpg?s=612x612&w=0&k=20&c=l-ZqPpFkynjAvp0Q7EQu2cqzYqPlsSY3idfa21kGwGg="
+              class="card-img-top"
+              alt="Sports"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sports</h5>
+              <p class="card-text">
+                From football to chess – find your passion in sports.
+              </p>
+              <a href="#" class="btn btn-primary">View Sports</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
